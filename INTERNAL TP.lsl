@@ -27,6 +27,19 @@ integer loc_x = 9933;  // Coordinates of the sim
 integer loc_y = 9972; // Coordinates of the sim
 default
 {
+    // reset script when the object is rezzed
+    on_rez(integer start_param)
+    {
+        llResetScript();
+    }
+ 
+    changed(integer change)
+    {
+        // reset script when the owner or the inventory changed
+        if (change & (CHANGED_OWNER | CHANGED_INVENTORY))
+            llResetScript();
+    }
+    
     state_entry()
     {
         llSay(0, "Script running");
