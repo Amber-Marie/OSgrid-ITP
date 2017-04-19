@@ -19,7 +19,7 @@
 // Internal TP. Based on OS_Teleport Script by WhiteStar Magic, Modified by Amber-Marie Tracey
 // Revision 1, changed the touch start to read the object description to set the landing point
 // vector LandingPoint = llGetObjectDesc();
-// This requires a vector in the objects description <50,52,24>
+// This requires a vector in the objects description for example <50,52,24>
 //
 // The latest version can be found at https://github.com/Amber-Marie/OSgrid-ITP
 //
