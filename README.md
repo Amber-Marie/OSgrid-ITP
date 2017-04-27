@@ -17,6 +17,6 @@ I have made two revisions to this script:
           string strY = llGetSubString(loc_vector, 13, 17);
           loc_x = ((integer)strX);
           loc_y = ((integer)strY);
-     The codeing used was provided by Lotek Ixtar from OsGrid
+     The coding used was provided by Lotek Ixtar from OsGrid
 
 If you have any problems, please get in touch amber-marie@hosted-systems.co.uk
